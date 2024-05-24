@@ -3,4 +3,4 @@ Um gerador de request como extensão ao sistema Jira, definição padrão de uso
 
 
 
-Recomenda-se uso so navegador edge, google chorme(se não houver bloqueio nas extensões). 
+Recomenda-se uso no navegador edge e google chorme(se não houver bloqueio nas extensões). 
