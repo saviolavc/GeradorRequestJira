@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Gerador de Padrão</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <img src="logo/brisanet.png" alt="Logo Brisanet">
+  <h3>Gerador de Request</h3>
+  
+  <div class="input-field">
+    <label for="setor">Setor:</label>
+    <input type="text" id="setor" >
+  </div>
+
+  <div class="input-field">
+    <label for="chamado">Chamado:</label>
+    <input type="text" id="chamado" >
+  </div>
+
+  <div class="input-field">
+    <label for="chamado">Descrição:</label>
+    <input type="text" id="descricao" >
+  </div>
+
+  <div class="input-field">
+    <label for="mv">MV: Maior versão</label>
+    <input type="text" id="mv" value="01" >
+  </div>
+
+  <div class="input-field">
+    <label for="vv">VV:</label>
+    <input type="text" id="vv" value="01" >
+  </div>
+  
+  <button id="capturar" class="button">Capturar Dados</button>
+  <button id="gerar" class="button">Gerar</button>
+
+  <div class="result">
+    <h4>Request:</h4>
+    <p id="resultado"></p>
+  </div>
+  <div class="result">
+    <h4>Nome do Chamado Formatado:</h4>
+    <p id="nomeChamadoFormatado"></p>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Gerador de Request",
+  "version": "2.0",
+  "description": "Gerador de Request no padrão da Brisanet, utilizando o sistema de chamados TIFLUX",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "clipboardWrite",
+    "scripting"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
