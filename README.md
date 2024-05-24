@@ -1,2 +1,2 @@
 # GeradorRequestJira
-Um gerador de request como extensão ao Sistema Jira, Uso no SAP, definição de padrão.
+Um gerador de request como extensão ao sistema Jira, definição padrão de uso com sistema SAP.
