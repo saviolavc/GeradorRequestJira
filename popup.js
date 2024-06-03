@@ -59,7 +59,7 @@ function getFields() {
   return { setor, chamado, numchamado};
   */
 
-  const setorElement = document.querySelector('span.css-9wxwdq');
+  const setorElement = document.querySelector('span.css-1vrpaoz');
   // Seleciona todos os elementos <span> com a classe css-1gd7hga
   let chamado = '';
   const todosElementos = document.querySelectorAll('span.css-1gd7hga');
