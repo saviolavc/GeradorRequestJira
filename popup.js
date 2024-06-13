@@ -59,7 +59,8 @@ function getFields() {
   return { setor, chamado, numchamado};
   */
 
-  const setorElement = document.querySelector('span.css-1vrpaoz');
+  //const setorElement = document.querySelector('span.css-1vrpaoz');
+  const setorElement = document.querySelector('div[data-testid="issue.views.field.single-line-text-inline-edit.read-view.customfield_10178"]');
   // Seleciona todos os elementos <span> com a classe css-1gd7hga
   let chamado = '';
   const todosElementos = document.querySelectorAll('span.css-1gd7hga');
@@ -80,8 +81,8 @@ console.log(descricao);
   todosElementos.forEach(elemento => {
     // Obtém o texto dentro do elemento <span>
     const texto = elemento.textContent.trim();
-    // Verifica se o texto começa com "SDE-" e atribui à variável chamado se verdadeiro
-    texto.startsWith('SDE-') ? chamado = elemento.innerText : null;
+    // Verifica se o texto começa com "SDERP-" e atribui à variável chamado se verdadeiro
+    texto.startsWith('SDERP-') ? chamado = elemento.innerText : null;
   });
   const setor = setorElement ? setorElement.innerText.trim().substring(0, 5).toUpperCase().replace(' ', '') : '';
 
