@@ -82,7 +82,7 @@ console.log(descricao);
     // Obtém o texto dentro do elemento <span>
     const texto = elemento.textContent.trim();
     // Verifica se o texto começa com "SDERP-" e atribui à variável chamado se verdadeiro
-    texto.startsWith('SDERP-') ? chamado = elemento.innerText : null;
+    texto.startsWith('SFSE-') ? chamado = elemento.innerText : null;
   });
   const setor = setorElement ? setorElement.innerText.trim().substring(0, 5).toUpperCase().replace(' ', '') : '';
 
