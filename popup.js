@@ -60,7 +60,7 @@ function getFields() {
   */
 
   //const setorElement = document.querySelector('span.css-1vrpaoz');
-  const setorElement = document.querySelector('div[data-testid="issue.views.field.single-line-text-inline-edit.read-view.customfield_10178"]');
+  const setorElement = document.querySelector('div[data-testid="issue-field-single-select-inline-edit-full.ui.single-select.read-view"]');
   // Seleciona todos os elementos <span> com a classe css-1gd7hga
   let chamado = '';
   const todosElementos = document.querySelectorAll('span.css-1gd7hga');
